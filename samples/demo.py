@@ -27,7 +27,7 @@ import mrcnn.model as modellib
 from mrcnn import visualize
 # Import COCO config
 sys.path.append(os.path.join(ROOT_DIR, "samples/coco/"))  # To find local version
-import samples.coco as coco
+from samples.coco import coco
 
 # get_ipython().run_line_magic('matplotlib', 'inline')
 
